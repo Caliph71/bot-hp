@@ -1,4 +1,4 @@
-# botst4rz
+# RakhA-BoT R3c1n9
 BOT WHATSAPP TERMUX BY : RAKHA MHDZ
 
 ### Alat dan Bahan
