@@ -12,12 +12,12 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ST4RZ BOT 🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
-const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
+const BotName = 'RakhA-BoT R3c1n9🤖'; // Nama Bot Whatsapp
+const instagramku = 'Gak Ada'; // Nama Instagramlu cok
+const whatsappku = '0821-3874-6029'; // Nomor whatsapplu cok
+const kapanbotaktif = 'Kalo Di Aktifkan'; // Kapan bot lu aktif
+const grupch1 = 'Gak Ada'; // OFFICIAL GRUP LU 1
+const grupch2 = 'Gak Ada'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -48,7 +48,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] Scan kode qr mu cok!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] Scan Qr Nya, Cepetan Bang!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -63,11 +63,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @bintang_nur_pradana`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by : RakhA-BoT R3c1n9`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @bintang_nur_pradana`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by : RakhA-BoT R3c1n9`)
 })
 
 conn.on('message-new', async(m) =>
@@ -178,7 +178,7 @@ axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
 })
 }
 
-if (text == '#help'){
+if (text == '$BotRakha'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
