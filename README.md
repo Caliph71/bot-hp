@@ -1,5 +1,5 @@
 # botst4rz
-BOT WHATSAPP HP BINTANG NUR PRADANA
+BOT WHATSAPP TERMUX BY : RAKHA MHDZ
 
 ### Alat dan Bahan
 Siapin alat dan bahannya.
@@ -17,8 +17,8 @@ Sebelum lu jalanin sc nya install dulu lah.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
-> git clone https://github.com/Bintang73/botst4rz.git
-> cd botst4rz
+> git clone https://github.com/Rakha21/bot-hp.git
+> cd bot-hp
 > bash install.sh
 > node index.js
 > Tinggal scan qr dah
@@ -46,7 +46,11 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Donate                           |
 
 ## Special Thanks to
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
+*Tuhan Yang Maha Esa
+*Hp Kentang : Black Shark 2
+*laptop kentang : ROG -G Series Limitid Edition
 
 ### Donate
-* [`Saweria`](https://saweria.co/donate/bintangnurpradana)
+*GOPAY : 082138746029
+*DANA : 082138746029
+*PULSA : 082138746029
