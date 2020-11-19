@@ -13,8 +13,8 @@ const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
 const BotName = 'RakhA-BoT R3c1n9🤖'; // Nama Bot Whatsapp
-const instagramku = 'Gak Ada'; // Nama Instagramlu cok
-const whatsappku = '0821-3874-6029'; // Nomor whatsapplu cok
+const instagramlu = 'Gak Ada'; // Nama Instagramlu cok
+const whatsapplu = '0821-3874-6029'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Kalo Di Aktifkan'; // Kapan bot lu aktif
 const grupch1 = 'Gak Ada'; // OFFICIAL GRUP LU 1
 const grupch2 = 'Gak Ada'; // OFFICIAL GRUP LU 2
